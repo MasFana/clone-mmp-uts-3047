@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMP UNIVERSITAS JEMBER</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <img src="https://mmp.unej.ac.id/pluginfile.php/1/theme_moove/logo/1665406821/logo%20mmp%202022.png" alt="logo"
+            class="logo">
+        <button class="menu-button">
+            <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="/">Beranda</a></li>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li class="active"><a href="/my-course">My Course</a></li>
+
+        </ul>
+
+        <div class="lang-menu">
+            <button class="lang-button">
+                <i class="fas fa-language"></i>
+                <span>Bahasa Indonesia</span>
+            </button>
+            <div class="lang-dropdown">
+                <a href="#">Bahasa Indonesia</a>
+                <a href="#">English</a>
+                <a href="#">English (US)</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul class="sidebar-links">
+            <li><a href="/">Beranda</a></li>
+            <li><a href="/dashboard">My course</a></li>
+            <li class="active"><a href="/my-course">My Course</a></li>
+
+        </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <main class="container-my-course">
+        <h1>My course</h1>
+        <section id="course">
+            <h4>Course overview</h4>
+            <hr>
+            <div class="filter">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="course-container">
+                <div class="course-card">
+                    <div class="course-image">
+                        <p>Fakultas Ilmu Komputer</p>
+                    </div>
+                    <a>Parallel Computing (A-TM-23672)-24252</a>
+                    <input type="range" name="complete" id="complete" min="0" max="100" value="50">
+                    <label class="input-value" for="complete">50% complete</label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-title">Kontak kami</h3>
+            </div>
+
+            <div class="footer-section">
+                <a href="#" class="support-link">Hubungi dukungan situs</a>
+                <p class="login-info">Anda belum masuk. (<a href="#">Masuk</a>)</p>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Dapatkan aplikasi seluler</h3>
+                <div class="app-badges">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/id_badge_web_generic.png"
+                        alt="Google Play" class="app-badge">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                        alt="App Store" class="app-badge">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
